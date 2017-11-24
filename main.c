@@ -10,5 +10,5 @@ int main(int argc, char **argv)
 {
     int n = atoi(argv[1]);
 
-    printf("%d\n",sequence(n));
+    printf("%d, ",sequence(n));
 }
